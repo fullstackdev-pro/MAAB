@@ -25,7 +25,7 @@ function ExpertsSalary() {
   });
 
   return (
-    <div className="bg-[#F5F5F7] py-2 mt-16 rounded-2xl">
+    <div className="bg-[#F5F5F7] pt-2 pb-12 mt-16 rounded-2xl">
       <p className="text-center text-[2.5rem] text-[#1460F2]">BI mutaxassislarining daromadi qancha?</p>
       <div className="grid grid-cols-3 gap-8 mx-8">{result}</div>
     </div>

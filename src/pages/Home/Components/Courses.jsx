@@ -26,7 +26,7 @@ function Courses() {
         beradigan haqiqiy bilimlarni taqdim etamiz. Sizning kar’erangiz butkul
         o’zgarishi shu erdan boshlanadi
       </p>
-      <div className="grid grid-cols-2 gap-8 ">
+      <div className="grid grid-cols-2 gap-8">
         {data.map((data, index) => (
           <div key={index} className="text-left bg-[#F5F5F7] rounded-2xl">
             <CoursesCard data={data} />
