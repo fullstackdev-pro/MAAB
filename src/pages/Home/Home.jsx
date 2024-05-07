@@ -9,7 +9,7 @@ import WinGrand from "./Components/WinGrand";
 
 function Home() {
   return (
-    <>
+    <section>
       <VideoComponent />
       <div className="mx-16 mt-8">
         <StudyCards />
@@ -20,7 +20,7 @@ function Home() {
       </div>
       <Faq />
       <Contact />
-    </>
+    </section>
   );
 }
 

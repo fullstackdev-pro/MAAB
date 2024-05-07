@@ -6,7 +6,7 @@ import { Logo } from "../assets";
 
 function Header() {
   return (
-    <div className="mx-12">
+    <header className="mx-12">
       <div className="flex justify-end mt-3">
         <div className="flex ">
           <BsTelegram className="text-[#9A999B] text-[1.2rem] mr-6 cursor-pointer" />
@@ -39,7 +39,7 @@ function Header() {
           </button>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 

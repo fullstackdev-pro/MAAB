@@ -6,7 +6,7 @@ import { IoMailOutline, IoLocationOutline } from "react-icons/io5";
 
 function Footer() {
   return (
-    <div className="bg-[#0C081A] px-16 pt-12 pb-8">
+    <footer className="bg-[#0C081A] px-16 pt-12 pb-8">
       <div className="flex justify-between bg-[#1F1B2C] rounded-2xl px-12 py-6">
         <div>
           <img
@@ -66,7 +66,7 @@ function Footer() {
           <p>Dasturchilar: UniFS</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

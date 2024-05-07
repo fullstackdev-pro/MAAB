@@ -78,9 +78,9 @@ function Contact() {
                 required
               >
                 <option value="">Bilim darajangiz</option>
-                <option value="Basic">Basic</option>
-                <option value="Intermediate">Intermediate</option>
-                <option value="Advanced">Advanced</option>
+                <option value="Basic">Junior</option>
+                <option value="Intermediate">Middle</option>
+                <option value="Advanced">Senior</option>
               </select>
             </label>
           </div>
